@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.toDo-main{
+    width: 300px;
+    margin: auto;
+    margin-top:20px ;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+  
+    padding: 10px;
+    
+}
+
+.add{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: 0;
+    
+    
+}
+.clear{
+    background-color: red;
+    border: 0;
+    padding: 10px;
+    color: white;
+}
+.result{
+    border: 1px solid;
+    margin-top: 20px;
+    width: 300px;
+    min-height: 300px;
+}
+
+
+.ul{
+    list-style: none;
+    padding: 10px;
+
+}
+
+.li{
+    display: flex;
+    justify-content: space-between;
+}
+.del{
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 5px;
+}
